@@ -1,0 +1,33 @@
+<!-- Robocup 2020 Handyman SLAM.launch -->
+<launch>
+  <include file="$(find robocup_simopl_handyman)/launch/rviz.launch"/>
+
+  <!-- SLAM -->
+  <!-- <include file="$(find hsr_navigation)/launch/hsr_navigation.launch"> -->
+  <!-- <include file="$(find hsr_navigation)/launch/sobit_hsr_navigation.launch"> -->
+  <include file="$(find hsr_navigation)/launch/hsr_navigation_multi_sensor.launch">
+  <!-- <include file="$(find sobit_navigation)/launch/sobit_hsr_navigation.launch"> -->
+    <arg name="map_file" value="$(find robocup_simopl_handyman)/map/LayoutA/LayoutA.yaml"/>
+    <arg name="initial_pose_x" default="0.00000"/>
+    <arg name="initial_pose_y" default="0.00000"/>
+    <arg name="initial_pose_a" default="0.0"/>
+    <!-- <arg name="map_movebase_file" default="$(find robocup_simopl_handyman)/map/LayoutA/LayoutA_movebase.yaml"/> -->
+    <!-- <arg name="location_file" default="$(find robocup_simopl_handyman)/map/LayoutA/LayoutA_grasping.json"/> -->
+    <!-- <arg name="look_down_floor_flag" default="false"/> -->
+    <!-- <arg name="look_at_goal_way_flag" default="false"/> -->
+  </include>
+
+  <rosparam command="load" file="$(find robocup_simopl_handyman)/map/LayoutA/LayoutA_objects.yaml"/>
+  
+
+  <group ns="handyman_tf_broadcaster">
+    <param name="map_frame_name" type="string" value="map"/>
+    <!-- <rosparam command="load" file="$(find robocup_simopl_handyman)/map/LayoutA/LayoutA_other.yaml"/> -->
+    <!-- <rosparam command="load" file="$(find robocup_simopl_handyman)/map/LayoutA/LayoutA_destination.yaml"/> -->
+    <param name="other_obj_json_path" type="string" value="/home/sobits/catkin_ws/src/robocup_simopl_handyman/map/LayoutA/LayoutA_other.json"/>
+    <param name="destination_json_path" type="string" value="/home/sobits/catkin_ws/src/robocup_simopl_handyman/map/LayoutA/LayoutA_destination.json"/>
+    <node name="other_obj_broadcaster_node" pkg="robocup_simopl_handyman" type="other_obj_broadcaster"/>
+    <node name="destination_broadcaster_node" pkg="robocup_simopl_handyman" type="destination_broadcaster"/>
+  </group>
+
+</launch>

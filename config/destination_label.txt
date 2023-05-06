@@ -1,0 +1,15 @@
+wooden_bed
+iron_bed
+dining_table
+wagon
+trash_box_for_recycle
+trash_box_for_burnable
+trash_box_for_bottle_can
+wooden_shelf
+corner_sofa
+square_low_table
+round_low_table
+white_side_table
+wooden_side_table
+armchair
+cardboard_box

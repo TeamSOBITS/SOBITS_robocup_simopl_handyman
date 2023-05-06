@@ -1,0 +1,15 @@
+<!-- Robocup2020_handyman -->
+<launch>
+
+    <!-- main -->
+	<node pkg="robocup_simopl_handyman" type="handyman_main.py" name="handyman_main" output="screen"/>
+    <!-- view -->
+    <include file="$(find robocup_simopl_handyman)/launch/rviz.launch"/>
+    <!-- minimal -->
+    <!-- <include file="$(find hsr_ros)/launch/minimal.launch"/> -->
+
+	<!-- sigverse -->
+	<include file="$(find hsr_ros)/launch/sigverse.launch"/>
+    
+
+</launch>

@@ -1,0 +1,9 @@
+<launch>
+
+	<!-- main -->
+	<node pkg="robocup_simopl_handyman" type="handyman_main.py" name="handyman_main" output="screen"/>
+
+	<!-- main -->
+	<node pkg="smach_viewer" type="smach_viewer.py" name="smach_viewer" output="screen"/>
+
+</launch>

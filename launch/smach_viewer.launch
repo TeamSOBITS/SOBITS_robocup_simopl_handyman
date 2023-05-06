@@ -1,0 +1,7 @@
+<!-- Robocup2020 Handyman -->
+<launch>
+
+	<!-- smach -->
+	<node pkg="smach_viewer" type="smach_viewer.py" name="smach_viewer" output="screen" launch-prefix="gnome-terminal -e"/>
+
+</launch>

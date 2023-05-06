@@ -1,0 +1,13 @@
+<launch>
+
+    <arg name="location_folder_path" default="$(find robocup_simopl_handyman)/map"/>
+
+    <!-- pose_saver -->
+    <group ns = "pose_saver_hsr">
+        <param name="save_location_folder_path" type="string" value="$(arg location_folder_path)"/>
+        <node name="handyman_other_obj_pose_saver" pkg="robocup_simopl_handyman" type="handyman_other_obj_pose_saver" output="screen"   /><!-- launch-prefix="gnome-terminal -e"-->
+    </group>
+
+
+
+</launch>

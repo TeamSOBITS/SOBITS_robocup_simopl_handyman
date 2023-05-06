@@ -1,0 +1,30 @@
+
+<launch>
+<arg name="node_start_delay" default="5.0" />
+<!-- pytorch -->
+<include file="$(find yolov5_ros)/launch/yolov5_with_tf.launch"/>
+
+<!--  placeable_position_estimator -->
+<include file="$(find placeable_position_estimator)/launch/placeable_position_estimator_hsr.launch"/>
+
+<!-- box_entry_gate_detection -->
+<include file="$(find box_entry_gate_detection)/launch/box_detection.launch"/>
+
+<!-- hsr_ros -->
+<node pkg="hsr_ros" type="sub_obj_depth" name="sub_obj_depth" output="screen"/>
+
+<!-- hsr_ros -->
+<include file="$(find hsr_ros)/launch/minimal.launch"/>
+
+<!-- main -->
+<node pkg="robocup_simopl_handyman" type="handyman_main.py" name="robocup_simopl_handyman" output="screen"/>
+<!-- view -->
+<include file="$(find robocup_simopl_handyman)/launch/rviz.launch"/>
+<!-- minimal -->
+<!-- <include file="$(find hsr_ros)/launch/minimal.launch"/> -->
+
+<!-- sigverse -->
+<include file="$(find hsr_ros)/launch/sigverse.launch"/>
+
+</launch>
+

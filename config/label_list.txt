@@ -1,0 +1,6 @@
+wooden_bed
+iron_bed
+door
+white_chair
+wooden_cupboard
+blue_cupboard

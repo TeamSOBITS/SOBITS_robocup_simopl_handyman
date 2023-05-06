@@ -1,0 +1,7 @@
+<!-- robocup_simopl_handyman Handyman rviz.launch-->
+<launch>
+
+  <!-- rviz -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find robocup_simopl_handyman)/rviz/handyman.rviz"/>
+
+</launch>

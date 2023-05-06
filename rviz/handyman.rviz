@@ -1,0 +1,1129 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 0
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /TF1
+        - /YOLO_result1
+        - /PointCloud22
+        - /MarkerArray1
+        - /OverlayText2
+      Splitter Ratio: 0.6010781526565552
+    Tree Height: 445
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+      - /Naname1
+      - /NamameHidari1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Name: Time
+    SyncMode: 0
+    SyncSource: LaserScan
+Preferences:
+  PromptSaveOnExit: true
+Toolbars:
+  toolButtonStyle: 2
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 255; 255; 255
+      Enabled: false
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: base_footprint
+      Value: false
+    - Alpha: 0.5
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        arm_flex_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_lift_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        arm_roll_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_footprint:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_imu_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_l_drive_wheel_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_l_passive_wheel_x_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_l_passive_wheel_y_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_l_passive_wheel_z_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_r_drive_wheel_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_r_passive_wheel_x_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_r_passive_wheel_y_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_r_passive_wheel_z_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_range_sensor_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_roll_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hand_camera_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hand_camera_gazebo_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hand_l_distal_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hand_l_finger_tip_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hand_l_finger_vacuum_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hand_l_mimic_distal_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hand_l_proximal_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hand_l_spring_proximal_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hand_motor_dummy_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hand_palm_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hand_r_distal_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hand_r_finger_tip_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hand_r_mimic_distal_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hand_r_proximal_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hand_r_spring_proximal_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        head_center_camera_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        head_center_camera_gazebo_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        head_l_stereo_camera_gazebo_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        head_l_stereo_camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        head_pan_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        head_r_stereo_camera_gazebo_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        head_r_stereo_camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        head_rgbd_sensor_gazebo_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        head_rgbd_sensor_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        head_tilt_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        torso_lift_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wrist_flex_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wrist_ft_sensor_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        wrist_roll_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: RobotModel
+      Robot Description: robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 30
+      Frames:
+        All Enabled: false
+        arm_flex_link:
+          Value: true
+        arm_lift_link:
+          Value: true
+        arm_roll_link:
+          Value: true
+        base_footprint:
+          Value: true
+        base_imu_frame:
+          Value: true
+        base_l_drive_wheel_link:
+          Value: true
+        base_l_passive_wheel_x_frame:
+          Value: true
+        base_l_passive_wheel_y_frame:
+          Value: true
+        base_l_passive_wheel_z_link:
+          Value: true
+        base_link:
+          Value: true
+        base_r_drive_wheel_link:
+          Value: true
+        base_r_passive_wheel_x_frame:
+          Value: true
+        base_r_passive_wheel_y_frame:
+          Value: true
+        base_r_passive_wheel_z_link:
+          Value: true
+        base_range_sensor_link:
+          Value: true
+        base_roll_link:
+          Value: true
+        bedroom:
+          Value: true
+        bedroom#GraspingCandidatesPosition01:
+          Value: true
+        bedroom#GraspingCandidatesPosition02:
+          Value: true
+        bedroom#GraspingCandidatesPosition03:
+          Value: true
+        bedroom#GraspingCandidatesPosition04:
+          Value: true
+        bedroom#GraspingCandidatesPosition05:
+          Value: true
+        bedroom#GraspingCandidatesPosition06:
+          Value: true
+        bedroom#GraspingCandidatesPosition07:
+          Value: true
+        bedroom#GraspingCandidatesPosition08:
+          Value: true
+        bedroom#cardboard_box:
+          Value: true
+        bedroom#changing-table:
+          Value: true
+        bedroom#cushion:
+          Value: true
+        bedroom#desk_lamp:
+          Value: true
+        bedroom#flowervase_B_c01:
+          Value: true
+        bedroom#fruitbasket_B_bara:
+          Value: true
+        bedroom#iron_bed:
+          Value: true
+        bedroom#white_potted_plant:
+          Value: true
+        bedroom#white_side_table:
+          Value: true
+        bedroom#wooden_shelf:
+          Value: true
+        hand_camera_frame:
+          Value: true
+        hand_camera_rgb_frame:
+          Value: true
+        hand_l_distal_link:
+          Value: true
+        hand_l_finger_tip_frame:
+          Value: true
+        hand_l_finger_vacuum_frame:
+          Value: true
+        hand_l_mimic_distal_link:
+          Value: true
+        hand_l_proximal_link:
+          Value: true
+        hand_l_spring_proximal_link:
+          Value: true
+        hand_motor_dummy_link:
+          Value: true
+        hand_palm_link:
+          Value: true
+        hand_r_distal_link:
+          Value: true
+        hand_r_finger_tip_frame:
+          Value: true
+        hand_r_mimic_distal_link:
+          Value: true
+        hand_r_proximal_link:
+          Value: true
+        hand_r_spring_proximal_link:
+          Value: true
+        head_center_camera_frame:
+          Value: true
+        head_center_camera_rgb_frame:
+          Value: true
+        head_l_stereo_camera_link:
+          Value: true
+        head_l_stereo_camera_rgb_frame:
+          Value: true
+        head_pan_link:
+          Value: true
+        head_r_stereo_camera_link:
+          Value: true
+        head_r_stereo_camera_rgb_frame:
+          Value: true
+        head_rgbd_sensor_depth_frame:
+          Value: true
+        head_rgbd_sensor_link:
+          Value: true
+        head_rgbd_sensor_rgb_frame:
+          Value: true
+        head_tilt_link:
+          Value: true
+        kitchen:
+          Value: true
+        kitchen#GraspingCandidatesPosition11:
+          Value: true
+        kitchen#GraspingCandidatesPosition12:
+          Value: true
+        kitchen#GraspingCandidatesPosition13:
+          Value: true
+        kitchen#GraspingCandidatesPosition14:
+          Value: true
+        kitchen#GraspingCandidatesPosition15:
+          Value: true
+        kitchen#GraspingCandidatesPosition16:
+          Value: true
+        kitchen#GraspingCandidatesPosition17:
+          Value: true
+        kitchen#GraspingCandidatesPosition18:
+          Value: true
+        kitchen#GraspingCandidatesPosition19:
+          Value: true
+        kitchen#blue_cupboard:
+          Value: true
+        kitchen#chair_A_c02:
+          Value: true
+        kitchen#chair_A_c02_2:
+          Value: true
+        kitchen#chopsticks_A:
+          Value: true
+        kitchen#coffee_press:
+          Value: true
+        kitchen#custom_kitchen:
+          Value: true
+        kitchen#diningTable_A:
+          Value: true
+        kitchen#dish_B_c01:
+          Value: true
+        kitchen#fruitbasket_B_bara:
+          Value: true
+        kitchen#oven:
+          Value: true
+        kitchen#pan:
+          Value: true
+        kitchen#refrigerator:
+          Value: true
+        kitchen#trash_box_for_bottle_can:
+          Value: true
+        kitchen#wooden_cupboard:
+          Value: true
+        kitchen#wooden_side_table:
+          Value: true
+        living_room:
+          Value: true
+        living_room#CD_player:
+          Value: true
+        living_room#GraspingCandidatesPosition21:
+          Value: true
+        living_room#GraspingCandidatesPosition22:
+          Value: true
+        living_room#GraspingCandidatesPosition23:
+          Value: true
+        living_room#GraspingCandidatesPosition24:
+          Value: true
+        living_room#GraspingCandidatesPosition25:
+          Value: true
+        living_room#GraspingCandidatesPosition26:
+          Value: true
+        living_room#GraspingCandidatesPosition27:
+          Value: true
+        living_room#GraspingCandidatesPosition28:
+          Value: true
+        living_room#GraspingCandidatesPosition29:
+          Value: true
+        living_room#GraspingCandidatesPosition31:
+          Value: true
+        living_room#GraspingCandidatesPosition32:
+          Value: true
+        living_room#TV:
+          Value: true
+        living_room#TV_rack:
+          Value: true
+        living_room#TV_remocon:
+          Value: true
+        living_room#car:
+          Value: true
+        living_room#carpet_A:
+          Value: true
+        living_room#chair_A_c02:
+          Value: true
+        living_room#flowers:
+          Value: true
+        living_room#magazine_rack_A:
+          Value: true
+        living_room#magazine_rack_B:
+          Value: true
+        living_room#pot:
+          Value: true
+        living_room#ricecracker:
+          Value: true
+        living_room#round_low_table:
+          Value: true
+        living_room#sofa:
+          Value: true
+        living_room#trash_box_for_bottle_can:
+          Value: true
+        living_room#trash_box_for_burnable:
+          Value: true
+        living_room#white_potted_plant:
+          Value: true
+        living_room#white_side_table:
+          Value: true
+        living_room#white_side_table_2:
+          Value: true
+        living_room#wide_shelf:
+          Value: true
+        living_room#wooden_side_table:
+          Value: true
+        map:
+          Value: true
+        odom:
+          Value: true
+        torso_lift_link:
+          Value: true
+        wrist_flex_link:
+          Value: true
+        wrist_ft_sensor_frame:
+          Value: true
+        wrist_roll_link:
+          Value: true
+      Marker Alpha: 1
+      Marker Scale: 1.5
+      Name: TF
+      Show Arrows: false
+      Show Axes: true
+      Show Names: true
+      Tree:
+        map:
+          bedroom:
+            {}
+          bedroom#GraspingCandidatesPosition01:
+            {}
+          bedroom#GraspingCandidatesPosition02:
+            {}
+          bedroom#GraspingCandidatesPosition03:
+            {}
+          bedroom#GraspingCandidatesPosition04:
+            {}
+          bedroom#GraspingCandidatesPosition05:
+            {}
+          bedroom#GraspingCandidatesPosition06:
+            {}
+          bedroom#GraspingCandidatesPosition07:
+            {}
+          bedroom#GraspingCandidatesPosition08:
+            {}
+          bedroom#cardboard_box:
+            {}
+          bedroom#changing-table:
+            {}
+          bedroom#cushion:
+            {}
+          bedroom#desk_lamp:
+            {}
+          bedroom#flowervase_B_c01:
+            {}
+          bedroom#fruitbasket_B_bara:
+            {}
+          bedroom#iron_bed:
+            {}
+          bedroom#white_potted_plant:
+            {}
+          bedroom#white_side_table:
+            {}
+          bedroom#wooden_shelf:
+            {}
+          kitchen:
+            {}
+          kitchen#GraspingCandidatesPosition11:
+            {}
+          kitchen#GraspingCandidatesPosition12:
+            {}
+          kitchen#GraspingCandidatesPosition13:
+            {}
+          kitchen#GraspingCandidatesPosition14:
+            {}
+          kitchen#GraspingCandidatesPosition15:
+            {}
+          kitchen#GraspingCandidatesPosition16:
+            {}
+          kitchen#GraspingCandidatesPosition17:
+            {}
+          kitchen#GraspingCandidatesPosition18:
+            {}
+          kitchen#GraspingCandidatesPosition19:
+            {}
+          kitchen#blue_cupboard:
+            {}
+          kitchen#chair_A_c02:
+            {}
+          kitchen#chair_A_c02_2:
+            {}
+          kitchen#chopsticks_A:
+            {}
+          kitchen#coffee_press:
+            {}
+          kitchen#custom_kitchen:
+            {}
+          kitchen#diningTable_A:
+            {}
+          kitchen#dish_B_c01:
+            {}
+          kitchen#fruitbasket_B_bara:
+            {}
+          kitchen#oven:
+            {}
+          kitchen#pan:
+            {}
+          kitchen#refrigerator:
+            {}
+          kitchen#trash_box_for_bottle_can:
+            {}
+          kitchen#wooden_cupboard:
+            {}
+          kitchen#wooden_side_table:
+            {}
+          living_room:
+            {}
+          living_room#CD_player:
+            {}
+          living_room#GraspingCandidatesPosition21:
+            {}
+          living_room#GraspingCandidatesPosition22:
+            {}
+          living_room#GraspingCandidatesPosition23:
+            {}
+          living_room#GraspingCandidatesPosition24:
+            {}
+          living_room#GraspingCandidatesPosition25:
+            {}
+          living_room#GraspingCandidatesPosition26:
+            {}
+          living_room#GraspingCandidatesPosition27:
+            {}
+          living_room#GraspingCandidatesPosition28:
+            {}
+          living_room#GraspingCandidatesPosition29:
+            {}
+          living_room#GraspingCandidatesPosition31:
+            {}
+          living_room#GraspingCandidatesPosition32:
+            {}
+          living_room#TV:
+            {}
+          living_room#TV_rack:
+            {}
+          living_room#TV_remocon:
+            {}
+          living_room#car:
+            {}
+          living_room#carpet_A:
+            {}
+          living_room#chair_A_c02:
+            {}
+          living_room#flowers:
+            {}
+          living_room#magazine_rack_A:
+            {}
+          living_room#magazine_rack_B:
+            {}
+          living_room#pot:
+            {}
+          living_room#ricecracker:
+            {}
+          living_room#round_low_table:
+            {}
+          living_room#sofa:
+            {}
+          living_room#trash_box_for_bottle_can:
+            {}
+          living_room#trash_box_for_burnable:
+            {}
+          living_room#white_potted_plant:
+            {}
+          living_room#white_side_table:
+            {}
+          living_room#white_side_table_2:
+            {}
+          living_room#wide_shelf:
+            {}
+          living_room#wooden_side_table:
+            {}
+          odom:
+            base_footprint:
+              base_link:
+                arm_lift_link:
+                  arm_flex_link:
+                    arm_roll_link:
+                      wrist_flex_link:
+                        wrist_roll_link:
+                          hand_palm_link:
+                            hand_camera_frame:
+                              hand_camera_rgb_frame:
+                                {}
+                            hand_l_proximal_link:
+                              hand_l_spring_proximal_link:
+                                hand_l_mimic_distal_link:
+                                  hand_l_distal_link:
+                                    hand_l_finger_tip_frame:
+                                      {}
+                                    hand_l_finger_vacuum_frame:
+                                      {}
+                            hand_motor_dummy_link:
+                              {}
+                            hand_r_proximal_link:
+                              hand_r_spring_proximal_link:
+                                hand_r_mimic_distal_link:
+                                  hand_r_distal_link:
+                                    hand_r_finger_tip_frame:
+                                      {}
+                          wrist_ft_sensor_frame:
+                            {}
+                base_imu_frame:
+                  {}
+                base_range_sensor_link:
+                  {}
+                base_roll_link:
+                  base_l_drive_wheel_link:
+                    {}
+                  base_l_passive_wheel_x_frame:
+                    base_l_passive_wheel_y_frame:
+                      base_l_passive_wheel_z_link:
+                        {}
+                  base_r_drive_wheel_link:
+                    {}
+                  base_r_passive_wheel_x_frame:
+                    base_r_passive_wheel_y_frame:
+                      base_r_passive_wheel_z_link:
+                        {}
+                torso_lift_link:
+                  head_pan_link:
+                    head_tilt_link:
+                      head_center_camera_frame:
+                        head_center_camera_rgb_frame:
+                          {}
+                      head_l_stereo_camera_link:
+                        head_l_stereo_camera_rgb_frame:
+                          {}
+                      head_r_stereo_camera_link:
+                        head_r_stereo_camera_rgb_frame:
+                          {}
+                      head_rgbd_sensor_link:
+                        head_rgbd_sensor_depth_frame:
+                          {}
+                        head_rgbd_sensor_rgb_frame:
+                          {}
+      Update Interval: 0
+      Value: true
+    - Align Bottom: false
+      Background Alpha: 0.699999988079071
+      Background Color: 0; 0; 0
+      Class: jsk_rviz_plugin/OverlayText
+      Enabled: true
+      Foreground Alpha: 1
+      Foreground Color: 25; 255; 240
+      Invert Shadow: true
+      Name: Handyman_Log
+      Overtake BG Color Properties: true
+      Overtake FG Color Properties: true
+      Overtake Position Properties: true
+      Topic: /handyman_main_log
+      Value: true
+      font: DejaVu Sans Mono
+      height: 203
+      left: 900
+      line width: 2
+      text size: 11
+      top: 5
+      width: 540
+    - Align Bottom: false
+      Background Alpha: 0.800000011920929
+      Background Color: 0; 0; 0
+      Class: jsk_rviz_plugin/OverlayText
+      Enabled: true
+      Foreground Alpha: 0.800000011920929
+      Foreground Color: 25; 255; 240
+      Invert Shadow: true
+      Name: Task_Command
+      Overtake BG Color Properties: true
+      Overtake FG Color Properties: true
+      Overtake Position Properties: true
+      Topic: /handyman_cmd
+      Value: true
+      font: DejaVu Sans Mono
+      height: 137
+      left: 10
+      line width: 4
+      text size: 11
+      top: 5
+      width: 879
+    - Align Bottom: false
+      Background Alpha: 0.800000011920929
+      Background Color: 0; 0; 0
+      Class: jsk_rviz_plugin/OverlayText
+      Enabled: true
+      Foreground Alpha: 0.800000011920929
+      Foreground Color: 25; 255; 240
+      Invert Shadow: false
+      Name: OverlayText
+      Overtake BG Color Properties: false
+      Overtake FG Color Properties: false
+      Overtake Position Properties: true
+      Topic: /handyman_detect_obj
+      Value: true
+      font: DejaVu Sans Mono
+      height: 600
+      left: 0
+      line width: 2
+      text size: 12
+      top: 170
+      width: 500
+    - Alpha: 0.699999988079071
+      Class: rviz/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: true
+      Name: Map
+      Topic: map
+      Unreliable: false
+      Use Timestamp: false
+      Value: true
+    - Alpha: 0.699999988079071
+      Class: rviz/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: true
+      Name: Map_movebase
+      Topic: /map_movebase
+      Unreliable: false
+      Use Timestamp: false
+      Value: true
+    - Alpha: 0.699999988079071
+      Class: rviz/Map
+      Color Scheme: costmap
+      Draw Behind: false
+      Enabled: true
+      Name: global_costmap
+      Topic: /move_base/global_costmap/costmap
+      Unreliable: false
+      Use Timestamp: false
+      Value: true
+    - Alpha: 0.699999988079071
+      Class: rviz/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: true
+      Name: local_cost_map
+      Topic: /move_base/local_costmap/costmap
+      Unreliable: false
+      Use Timestamp: false
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: PointCloud2
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /hsrb/head_rgbd_sensor/depth_registered/points
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: LaserScan
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.019999999552965164
+      Style: Flat Squares
+      Topic: /hsrb/base_scan
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: false
+      Marker Topic: /waypoint_nav/location_marker
+      Name: Location_Marker
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: false
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 255; 69; 240
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Billboards
+      Line Width: 0.10000000149011612
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0.10000000149011612
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Queue Size: 10
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /move_base/NavfnROS/plan
+      Unreliable: false
+      Value: true
+    - Class: rviz/Image
+      Enabled: false
+      Image Topic: /chainer_yolov3_ros/detect_result
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: YOLO_result
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
+      Unreliable: false
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: ""
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: PointCloud2
+      Position Transformer: ""
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.05000000074505806
+      Style: Flat Squares
+      Topic: /placeable_position_estimator/cloud_plane
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /placeable_position_estimator/marker
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Align Bottom: true
+      Background Alpha: 0.800000011920929
+      Background Color: 0; 0; 0
+      Class: jsk_rviz_plugin/OverlayText
+      Enabled: false
+      Foreground Alpha: 0.800000011920929
+      Foreground Color: 25; 255; 240
+      Invert Shadow: true
+      Name: OverlayText
+      Overtake BG Color Properties: true
+      Overtake FG Color Properties: true
+      Overtake Position Properties: true
+      Topic: /handyman_main_log
+      Value: false
+      font: DejaVu Sans Mono
+      height: 128
+      left: 0
+      line width: 2
+      text size: 12
+      top: 0
+      width: 128
+  Enabled: true
+  Global Options:
+    Background Color: 100; 149; 237
+    Default Light: true
+    Fixed Frame: map
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Theta std deviation: 0.2617993950843811
+      Topic: /initialpose
+      X std deviation: 0.5
+      Y std deviation: 0.5
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 30.742473602294922
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Field of View: 0.7853981852531433
+      Focal Point:
+        X: 1.9549322128295898
+        Y: 4.557590484619141
+        Z: -0.28295353055000305
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 1.0297967195510864
+      Target Frame: <Fixed Frame>
+      Yaw: 1.010515809059143
+    Saved:
+      - Class: rviz/Orbit
+        Distance: 2
+        Enable Stereo Rendering:
+          Stereo Eye Separation: 0.05999999865889549
+          Stereo Focal Distance: 1
+          Swap Stereo Eyes: false
+          Value: false
+        Field of View: 0.7853981852531433
+        Focal Point:
+          X: -0.15000000596046448
+          Y: 0.15000000596046448
+          Z: 0.20000000298023224
+        Focal Shape Fixed Size: true
+        Focal Shape Size: 0.05000000074505806
+        Invert Z Axis: false
+        Name: Naname
+        Near Clip Distance: 0.009999999776482582
+        Pitch: 0.785398006439209
+        Target Frame: <Fixed Frame>
+        Yaw: -0.785398006439209
+      - Class: rviz/Orbit
+        Distance: 2
+        Enable Stereo Rendering:
+          Stereo Eye Separation: 0.05999999865889549
+          Stereo Focal Distance: 1
+          Swap Stereo Eyes: false
+          Value: false
+        Field of View: 0.7853981852531433
+        Focal Point:
+          X: -0.15000000596046448
+          Y: -0.15000000596046448
+          Z: 0.20000000298023224
+        Focal Shape Fixed Size: true
+        Focal Shape Size: 0.05000000074505806
+        Invert Z Axis: false
+        Name: NamameHidari
+        Near Clip Distance: 0.009999999776482582
+        Pitch: 0.785398006439209
+        Target Frame: <Fixed Frame>
+        Yaw: 0.785398006439209
+Window Geometry:
+  Displays:
+    collapsed: true
+  Height: 752
+  Hide Left Dock: true
+  Hide Right Dock: true
+  QMainWindow State: 000000ff00000000fd00000004000000000000017500000254fc020000000ffb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073000000003900000254000000c500fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb00000014005800740069006f006e0044006500700074006800000001c5000000be0000000000000000fb0000001a004700720069007000700065007200430061006d0065007200610000000263000000890000000000000000fb00000020004800650061006400430061006d00650072006100430065006e00740065007200000001ff000000ed0000000000000000fb0000001c004800650061006400430061006d006500720061004c006500660074000000022e000000be0000000000000000fb0000001e004800650061006400430061006d00650072006100520069006700680074000000022f000000bd0000000000000000fb00000014005800740069006f006e0049006d00610067006500000004a9000000be0000000000000000fb000000160059004f004c004f005f0072006500730075006c007402000005000000025800000280000001e0000000010000014800000390fc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a005600690065007700730000000028000003900000009d00fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e100000197000000030000056a00000044fc0100000002fb0000000800540069006d006501000000000000056a000002c100fffffffb0000000800540069006d006501000000000000045000000000000000000000056a0000025400000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: true
+  Width: 1386
+  X: 440
+  Y: 291
+  YOLO_result:
+    collapsed: false
