@@ -137,4 +137,4 @@ $ roslaunch robocup_simopl_handyman handyman_all.launch
 - 全launch起動後，handyman.launch以外のlaunchは起動しなおさなくても動作しています（練習のときとかには便利かも，**本番には非推奨**）．
 
 ## License
-このウェブサイトのソースコードは，MITライセンスに基づいてライセンスされており，[LICENSE](https://github.com/TeamSOBITS/robocup_simopl_handyman/blob/rcjp_2023/LISENCE)ファイルに記載されています．
+このウェブサイトのソースコードは，MITライセンスに基づいてライセンスされており，[LICENSE](https://github.com/TeamSOBITS/SOBITS_robocup_simopl_handyman/blob/main/LICENSE)ファイルに記載されています．
