@@ -132,6 +132,7 @@ $ roslaunch robocup_simopl_handyman handyman_all.launch
 ```
 
 ## Caution
+- 本パッケージは、公開用のパッケージとなっております。各チームが各自Git Cloneし、パッケージ名を「robocup_simopl_handyman」に変更して使用してください．
 - handyman.launchの起動後，準備完了時に端末に"Wait_command"と出るので，その後SIGVerseを起動してください．
 - handyman.launchを終了する場合はSIGVerseを停止してからにしてください（逆にするとSIGVerseが再通信できるようになるまで時間がかかります）．
 - 全launch起動後，handyman.launch以外のlaunchは起動しなおさなくても動作しています（練習のときとかには便利かも，**本番には非推奨**）．
