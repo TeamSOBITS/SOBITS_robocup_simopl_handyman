@@ -49,7 +49,7 @@ $ cd ~/catkin_ws && catkin_make
     - 外部のGitHubページへ移動します．
 
 ### HSR Minimal Function
-- [hsr_ros(非公開) (branch: handyman_2023)](https://github.com/TeamSOBITS/hsr_ros/tree/handyman_2023)
+- [SOBITS_hsr_commmon_sim(公開) (branch: noetic-devel)](https://github.com/TeamSOBITS/SOBITS_hsr_common_sim)
     - 用途：SIGVerse上でHSRを利用するための共通パッケージ
 - [sobit_common(非公開)  (branch: noetic-devel)](https://github.com/TeamSOBITS/sobit_common)
     - 実際に必要なパッケージは[cv_bridge](http://wiki.ros.org/cv_bridge)，[geometry](http://wiki.ros.org/geometry)，[geometry2](http://wiki.ros.org/geometry2)，[image_geometry](http://wiki.ros.org/image_geometry)
