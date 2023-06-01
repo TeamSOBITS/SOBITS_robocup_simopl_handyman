@@ -285,17 +285,6 @@ def analysis_msg(msg):
     if "rubik's_cube" in msg:
         msg = msg.replace("rubik's_cube", "rubiks_cube")
 
-    print ("-----------------------------------------------------------")
-    if msg == "Go to the kitchen, pick up the toy_penguin on the dining_table in the kitchen and place it on the armchair in the lobby.":
-        print("&&&&&&&&&")
-        msg = "Go to the kitchen, grasp the toy_penguin on the dining_table in the kitchen and send it on the armchair in the lobby."
-    elif msg == "Go to the bedroom, pick up the tumbler under the basketball_board and hand it over to me.":
-        print("&&&&&&&&&")
-        msg = "Go to the bedroom, grasp the tumbler under the basketball_board and hand it over to me."
-    elif msg == "Go to the kitchen, pick up the empty_ketchup close to the living room and trash away it into the trash can next to the sofa in the living room.":
-        print("&&&&&&&&&")
-        msg = "Go to the kitchen, grasp the empty_ketchup and trash away it into the trash_box_for_burnable in the living room."
-
     location_tokens, object_tokens, furniture_tokens, msg_for_command_analyzer, location_grasp_for_command_analyzer = word_tokenizing(msg)
     #print(msg_for_command_analyzer) #['grasp', 'the', 'filled_plastic_bottle', 'on', 'the', 'white_side_table', 'and', 'put', 'it', 'into', 'the', 'cardboard_box', '.']
     #print(location_grasp_for_command_analyzer) #kitchen
