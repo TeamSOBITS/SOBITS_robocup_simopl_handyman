@@ -20,7 +20,7 @@ For the implementation of Handyman, it is necessary to set up two environments: 
 - ROS Environment
     - OS : Ubuntu20.04
     - ROS version : Noetic Ninjemys
-    - CUDAバージョン：11.7（Reason: yolov5_ros will be used in this package）
+    - CUDA version：11.7（Reason: yolov5_ros will be used in this package）
     - Pytorch : 1.13.1
 
 
